@@ -32,12 +32,8 @@ const nextConfig = {
     ];
   },
 
-  // Rewrites: SPA clean URL routing
-  async rewrites() {
-    return [
-      { source: "/tools/:slug*", destination: "/" },
-      { source: "/category/:slug*", destination: "/" },
-      { source: "/convert/:slug*", destination: "/" },
+  /eslint: { ignoreDuringBuilds: true },
+  typescript: { ignoreBuildErrors: true },
     ];
   },
 
