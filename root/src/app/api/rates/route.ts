@@ -5,9 +5,9 @@ export const runtime = "edge";
 export const revalidate = 3600; // 1 hour cache
 
 const BASE_FALLBACK_RATES: Record<string, number> = {
-  USD: 1, MYR: 4.47, EUR: 0.921, GBP: 0.789, SGD: 1.348,
-  JPY: 149.5, AUD: 1.532, CAD: 1.362, HKD: 7.824, THB: 35.1,
-  IDR: 15750, PHP: 56.8, INR: 83.4, CNY: 7.24, KRW: 1330,
+  USD: 1, MYR: 3.96, EUR: 0.921, GBP: 0.789, SGD: 1.27,
+  JPY: 149.5, AUD: 1.39, CAD: 1.362, HKD: 7.824, THB: 32.52,
+  IDR: 17,374.46, PHP: 56.8, INR: 94.97, CNY: 6.83, KRW: 1330,
   BND: 1.348, TWD: 31.8, VND: 24500, PKR: 278,
   AED: 3.673, SAR: 3.751, QAR: 3.641, KWD: 0.308,
 };
